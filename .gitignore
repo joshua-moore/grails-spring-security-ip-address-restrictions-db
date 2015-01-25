@@ -1,6 +1,7 @@
 # .gitignore for Grails 1.2 and 1.3
 
 # web application files
+/web-app/**
 /web-app/WEB-INF/classes
 
 # default HSQL database files for production mode
@@ -28,3 +29,16 @@
 
 # "temporary" build files
 /target
+
+# other
+/.project
+/.classpath
+
+# scripts
+/scripts/*
+
+# error view
+/grails-app/views/error.gsp
+
+#URL mapping
+/grails-app/conf/UrlMappings.groovy
